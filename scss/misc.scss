@@ -28,5 +28,8 @@ body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
 }
 
 .chat-message-actions .more-buttons.dropdown-select-box .select-kit-header {
-  border-radius: 0px;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
