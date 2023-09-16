@@ -1,3 +1,3 @@
-# discourse-fully
+# swordbattle-forum-theme
 
-Read more at [🏡 Fully, a Full Width Discourse Theme - theme - Discourse Meta](https://meta.discourse.org/t/fully-a-full-width-discourse-theme/262833)
+A fork of [Fully](https://meta.discourse.org/t/fully-a-full-width-discourse-theme/262833) customized for the [swordbattle forum](https://forum.codergautam.dev/).
