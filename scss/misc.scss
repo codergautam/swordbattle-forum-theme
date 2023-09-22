@@ -38,7 +38,7 @@ body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
     border-bottom-left-radius: 0px;
 }
 
-.user-menu.revamped .quick-access-panel li:hover {
+.user-menu.revamped .quick-access-panel li:hover, .user-menu.revamped .quick-access-panel li.unread, .user-menu.revamped .quick-access-panel li.pending {
     border-radius: 44px;
 }
 
