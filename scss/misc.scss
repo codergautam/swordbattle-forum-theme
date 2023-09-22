@@ -45,3 +45,11 @@ body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
 button.btn-flat {
     border-radius: 44px;
 }
+
+.select-kit.single-select.dropdown-select-box .select-kit-row {
+    border-radius: 44px;
+}
+
+.select-kit.single-select.dropdown-select-box.is-expanded .select-kit-body {
+    border-radius: 32px;
+}
