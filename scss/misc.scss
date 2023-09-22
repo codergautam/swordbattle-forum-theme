@@ -57,3 +57,11 @@ button.btn-flat {
 .modal-inner-container {
     border-radius: 40px;
 }
+
+.topic-map {
+    border-radius: 40px;
+}
+
+button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.widget-button.btn.no-text.btn-icon[title="collapse topic details"] {
+    border-radius: 60px;
+}
