@@ -69,3 +69,7 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
 .user-menu.revamped .tabs-list .btn {
     border-radius: 44px;
 }
+
+.before-header-panel-outlet+.panel {
+    margin-left: auto;
+}
