@@ -73,3 +73,50 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
 .before-header-panel-outlet+.panel {
     margin-left: auto;
 }
+
+#main-outlet-wrapper #main-outlet {
+    max-width: unset;
+}
+
+body.has-sidebar-page #main-outlet-wrapper {
+    grid-template-columns: max-content;
+    gap: 0 0.2em;
+}
+
+#main-outlet>.regular {
+    margin: unset;
+    max-width: unset;
+}
+
+.more-topics__container {
+    max-width: unset;
+}
+
+.container.posts {
+    justify-content: space-between;
+}
+
+.topic-body {
+    width: 100%;
+}
+
+.small-action.topic-post-visited .topic-post-visited-line {
+    width: 100vw;
+}
+
+.topic-timer-info {
+    border-top: unset;
+}
+
+.topic-area>.loading-container {
+    border-top: 1px solid var(--primary-low);
+    width: unset;
+}
+
+.container.posts>.row {
+    width: 78vw;
+}
+
+.small-action .small-action-desc {
+    width: 100%;
+}
