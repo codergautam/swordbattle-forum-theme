@@ -8,7 +8,7 @@
   width: 35px;
 }
 
-body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
+body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper, body #main-outlet-wrapper {
   grid-template-columns: var(--d-sidebar-width) minmax(0, 1fr);
   #main-outlet {
     max-width: unset;
