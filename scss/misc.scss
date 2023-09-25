@@ -4,15 +4,8 @@
   .chat-user-avatar-container
   .avatar,
 .chat-message .chat-emoji-avatar .chat-emoji-avatar-container {
-  height: 35px;
-  width: 35px;
-}
-
-body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper, body #main-outlet-wrapper {
-  grid-template-columns: var(--d-sidebar-width) minmax(0, 1fr);
-  #main-outlet {
-    max-width: unset;
-  }
+  height: 3px;
+  width: 3px;
 }
 
 .user-card {
@@ -74,13 +67,12 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
     margin-left: auto;
 }
 
-#main-outlet-wrapper #main-outlet {
-    max-width: unset;
-}
-
-body.has-sidebar-page #main-outlet-wrapper {
+body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
     grid-template-columns: max-content;
-    gap: 0 0.2em;
+    gap: 0 0.6em;
+    #main-outlet {
+        max-width: unset;
+    }
 }
 
 #main-outlet>.regular {
@@ -113,15 +105,18 @@ body.has-sidebar-page #main-outlet-wrapper {
     width: unset;
 }
 
-.container.posts>.row {
-    width: 67vw;
-}
-
 .post-notice {
     max-width: unset;
 }
 
-
 .small-action .small-action-desc {
     width: 100%;
+}
+
+
+body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
+    width: calc(86vw - var(--d-sidebar-width));
+}
+body #main-outlet-wrapper .container.posts>.row {
+    width: 86vw;
 }
