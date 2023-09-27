@@ -70,6 +70,10 @@ body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
     grid-template-columns: calc(var(--d-sidebar-width) - 10px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
 }
 
+.d-header>.wrap .contents {
+    grid-template-columns: calc(var(--d-sidebar-width) - 100px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
+}
+
 #main-outlet>.regular {
     margin: unset;
     max-width: unset;
