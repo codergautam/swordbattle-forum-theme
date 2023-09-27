@@ -59,11 +59,19 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
 
 body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
     grid-template-columns: max-content;
-    gap: 0 0.6em;
+    gap: 0 2em;
     #main-outlet {
         max-width: unset;
         width: 100%;
     }
+}
+
+.has-sidebar-page .d-header>.wrap .contents {
+    grid-template-columns: calc(var(--d-sidebar-width) - 10px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
+}
+
+.d-header>.wrap .contents {
+    grid-template-columns: calc(var(--d-sidebar-width) - 100px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
 }
 
 #main-outlet>.regular {
