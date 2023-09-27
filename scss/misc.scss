@@ -63,6 +63,7 @@ body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
     #main-outlet {
         max-width: unset;
         width: 100%;
+        padding-right: 2em;
     }
 }
 
@@ -114,8 +115,8 @@ body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
 
 
 body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
-    width: calc(86vw - var(--d-sidebar-width));
+    width: calc(85vw - var(--d-sidebar-width));
 }
 body #main-outlet-wrapper .container.posts>.row {
-    width: 86vw;
+    width: 85vw;
 }
