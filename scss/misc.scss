@@ -57,7 +57,7 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
     margin-left: auto;
 }
 
-body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
+.desktop-view body.has-sidebar-page #main-outlet-wrapper, body #main-outlet-wrapper {
     grid-template-columns: max-content;
     gap: 0 2em;
     #main-outlet {
