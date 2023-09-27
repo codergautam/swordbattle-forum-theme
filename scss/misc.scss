@@ -67,56 +67,56 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
     }
 }
 
-.has-sidebar-page .d-header>.wrap .contents {
+.desktop-view .has-sidebar-page .d-header>.wrap .contents {
     grid-template-columns: calc(var(--d-sidebar-width) - 10px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
 }
 
-.d-header>.wrap .contents {
+.desktop-view .d-header>.wrap .contents {
     grid-template-columns: calc(var(--d-sidebar-width) - 100px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
 }
 
-#main-outlet>.regular {
+.desktop-view #main-outlet>.regular {
     margin: unset;
     max-width: unset;
 }
 
-.more-topics__container {
+.desktop-view .more-topics__container {
     max-width: unset;
 }
 
-.container.posts {
+.desktop-view .container.posts {
     justify-content: space-between;
 }
 
-.topic-body {
+.desktop-view .topic-body {
     width: 100%;
 }
 
-.small-action.topic-post-visited .topic-post-visited-line {
+.desktop-view .small-action.topic-post-visited .topic-post-visited-line {
     width: 100vw;
 }
 
-.topic-timer-info {
+.desktop-view .topic-timer-info {
     border-top: unset;
 }
 
-.topic-area>.loading-container {
+.desktop-view .topic-area>.loading-container {
     border-top: 1px solid var(--primary-low);
     width: unset;
 }
 
-.post-notice {
+.desktop-view .post-notice {
     max-width: unset;
 }
 
-.small-action .small-action-desc {
+.desktop-view .small-action .small-action-desc {
     width: 100%;
 }
 
 
-body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
+.desktop-view body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
     width: calc(85vw - var(--d-sidebar-width));
 }
-body #main-outlet-wrapper .container.posts>.row {
+.desktop-view body #main-outlet-wrapper .container.posts>.row {
     width: 85vw;
 }
