@@ -109,3 +109,8 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
         width: 85vw;
     }
 }
+
+:not(.card-avatar-placeholder).animated-placeholder.placeholder-animation {
+    border-radius: 40px;
+}
+
