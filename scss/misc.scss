@@ -1,5 +1,5 @@
 .user-card {
-  border-radius: 44px;
+  border-radius: 42px !important;
 }
 
 .user-card .card-content {
@@ -13,6 +13,11 @@
 .user-card .badge-section .more-user-badges a {
   border-radius: 40px;
 }
+
+.fk-d-menu__inner-content {
+  border-radius: 44px;
+}
+
 
 .chat-message-actions .more-buttons.dropdown-select-box .select-kit-header {
     border-top-right-radius: 0.25em;
