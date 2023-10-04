@@ -67,12 +67,9 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
         gap: 0 2em;
         #main-outlet {
             max-width: unset;
-            width: 96%;
+            width: unset;
             padding-right: 2em;
         }
-    }
-    .desktop-view body #main-outlet-wrapper .container.posts:has(.d-toc-main)>.row {
-      width: unset;
     }
     .desktop-view .has-sidebar-page .d-header>.wrap .contents {
         grid-template-columns: calc(var(--d-sidebar-width) - 10px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
