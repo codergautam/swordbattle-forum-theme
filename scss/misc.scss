@@ -21,8 +21,8 @@
     border-bottom-left-radius: 0px;
 }
 
-.user-menu.revamped .quick-access-panel li:hover, .user-menu.revamped .quick-access-panel li.unread, .user-menu.revamped .quick-access-panel li.pending {
-    border-radius: 44px;
+div.quick-access-panel > :first-child {
+    border-radius: 30px;
 }
 
 button.btn-flat {
