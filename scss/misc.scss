@@ -18,7 +18,6 @@
   border-radius: 44px;
 }
 
-
 .chat-message-actions .more-buttons.dropdown-select-box .select-kit-header {
     border-top-right-radius: 0.25em;
     border-bottom-right-radius: 0.25em;
@@ -62,7 +61,7 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
     margin-left: auto;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 925px) {
     .desktop-view body.has-sidebar-page #main-outlet-wrapper, .desktop-view body #main-outlet-wrapper {
         grid-template-columns: max-content;
         gap: 0 2em;
