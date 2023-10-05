@@ -71,9 +71,6 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
             padding-right: 2em;
         }
     }
-    .desktop-view body #main-outlet-wrapper .container.posts:has(.d-toc-main)>.row {
-      width: unset !important;
-    }
     .desktop-view .has-sidebar-page .d-header>.wrap .contents {
         grid-template-columns: calc(var(--d-sidebar-width) - 10px) 1fr minmax(0, calc(100vw)) 1fr minmax(0, calc(var(--d-sidebar-width) - 11px));
     }
@@ -110,10 +107,10 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
         width: 100%;
     }
     .desktop-view body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
-        width: calc(85vw - var(--d-sidebar-width));
+        width: unset;
     }
     .desktop-view body #main-outlet-wrapper .container.posts>.row {
-        width: 85vw;
+        width: unset;
     }
 }
 
