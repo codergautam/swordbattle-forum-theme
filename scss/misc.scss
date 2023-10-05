@@ -1,5 +1,5 @@
 .user-card {
-  border-radius: 42px !important;
+  border-radius: 44px;
 }
 
 .user-card .card-content {
@@ -14,10 +14,6 @@
   border-radius: 40px;
 }
 
-.fk-d-menu__inner-content {
-  border-radius: 44px;
-}
-
 .chat-message-actions .more-buttons.dropdown-select-box .select-kit-header {
     border-top-right-radius: 0.25em;
     border-bottom-right-radius: 0.25em;
@@ -25,8 +21,8 @@
     border-bottom-left-radius: 0px;
 }
 
-div.quick-access-panel > :first-child {
-    border-radius: 30px;
+.user-menu.revamped .quick-access-panel li:hover, .user-menu.revamped .quick-access-panel li.unread, .user-menu.revamped .quick-access-panel li.pending {
+    border-radius: 44px;
 }
 
 button.btn-flat {
@@ -61,13 +57,13 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
     margin-left: auto;
 }
 
-@media screen and (min-width: 925px) {
+@media screen and (min-width: 840px) {
     .desktop-view body.has-sidebar-page #main-outlet-wrapper, .desktop-view body #main-outlet-wrapper {
         grid-template-columns: max-content;
         gap: 0 2em;
         #main-outlet {
             max-width: unset;
-            width: unset;
+            width: 96%;
             padding-right: 2em;
         }
     }
