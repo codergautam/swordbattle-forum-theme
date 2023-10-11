@@ -103,10 +103,10 @@ button.widget-button.btn.no-text.btn-icon[title="expand topic details"], button.
         width: 100%;
     }
     .desktop-view body.has-sidebar-page #main-outlet-wrapper .container.posts>.row {
-        width: calc(85vw - var(--d-sidebar-width));
+        width: unset;
     }
     .desktop-view body #main-outlet-wrapper .container.posts>.row {
-        width: 85vw;
+        width: unset;
     }
 }
 
